@@ -60,6 +60,7 @@ const userForm = ({ values, errors, touched, status }) => {
         <ul key={users.id}>
           <li>Name: {users.name}</li>
           <li>Email: {users.email}</li>
+          <li>Role: {users.role}</li>
         </ul>
       ))}
     </div>
